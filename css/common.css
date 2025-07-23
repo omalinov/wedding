@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'CormorantGaramondRegular';
+    src: url('../fonts/CormorantGaramond-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'CormorantGaramondRegularLight';
+    src: url('../fonts/CormorantGaramond-Light.ttf');
+}
+
+@font-face {
+    font-family: 'MargaritaScript';
+    src: url('../fonts/margaritascript.ttf');
+}
+
+:root {
+    --font-size-hero: 144px;
+    --font-size-title: 72px;
+    --font-size-h1: 48px;
+    --font-size-h2: 28px;
+    --font-size-nav: 20px;
+    --font-size-text: 16px;
+    --color-black: black;
+    --color-white: white;
+    --margin-small: 10px;
+    --margin-medium: 20px;
+    --margin-big: 40px;
+}
+
+body {
+    margin: 0;
+    background-color: #f9f8f6;
+    color: var(--color-black);
+}
+
+.fancy-font {
+    font-family: 'MargaritaScript', 'serif';
+}
+
+.readable-font {
+    font-family: 'CormorantGaramondRegular', 'serif';
+}
+
+.readable-font-light {
+    font-family: 'CormorantGaramondRegularLight', 'serif';
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(6px);
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+    padding: var(--margin-small);
+    flex: 0 0 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    height: 48px;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li.logo {
+    margin: 0 30px;
+}
+
+nav ul li.logo a {
+    border: none;
+}
+
+nav ul li.logo img {
+    height: 48px;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--font-size-nav);
+    font-weight: normal;
+}
+
+nav ul li:not(.logo) a:hover {
+    border-bottom: 1px solid var(--color-black);
+}

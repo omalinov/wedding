@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f7f5f0;
+    background-image: url(../img/countryside.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+}
+
+.hero {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+
+}
+
+.hero__leaf {
+    max-width: 50vmin;
+    height: auto;
+    margin-top: var(--margin-big);
+}
+
+.hero-titles {
+    position: absolute;
+    top: 65%;
+    filter: drop-shadow(3px 3px 1px #f7f5f0);
+    color: var(--color-black);
+}
+
+.hero .names {
+    font-style: italic;
+    font-weight: normal;
+    font-size: var(--font-size-hero);
+    margin: 0;
+}
+
+.hero .location {
+    font-size: var(--font-size-h2);
+    margin: 0;
+    font-weight: normal;
+    position: relative;
+    top: calc(-1 * var(--margin-medium));
+}
+
+.btn {
+    margin-top: var(--margin-big);
+    padding: 10px 20px;
+    background-color: var(--color-black);
+    color: white;
+    text-decoration: none;
+    font-size: var(--font-size-text);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Forum', serif;
+}
+
+.btn:hover {
+    background-color: #2c2e2b;
+}
+
+.countdown {
+    display: flex;
+    font-size: var(--font-size-h2);
+    margin: var(--margin-small);
+    gap: var(--margin-small)
+}
+
+.countdown div {
+    flex-basis: 150px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
