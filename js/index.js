@@ -584,6 +584,7 @@ mobileNav.addEventListener("click", () => {
 
 (function () {
     const img = new Image();
+    img.src = "./img/countryside.png";
     img.addEventListener("load", (e) => {
         console.log(e);
         const images = document.querySelectorAll("img");
@@ -601,7 +602,3 @@ mobileNav.addEventListener("click", () => {
         }
     });
 })();
-
-window.addEventListener("load", () => {
-
-});
