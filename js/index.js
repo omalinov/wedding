@@ -239,7 +239,7 @@ const l11n_bg = {
     "church_details": `
 <strong>Църковен брак - 15:30 ч.</strong>
 <br/>
-Църковната церемония ще се проведе в храм „Свети Атанасий“, разположен в центъра на град Перущица. Всички гости са поканени да присъстват. Гостите ще започнат да се събират пред храма от 15:00 ч., а самата церемония ще започне в 15:30 ч.
+Църковната церемония ще се проведе в храм „Свети Атанасий\", разположен в центъра на град Перущица. Всички гости са поканени да присъстват. Гостите ще започнат да се събират пред храма от 15:00 ч., а самата церемония ще започне в 15:30 ч.
 <br/><br/>
 <strong>Как да стигнете до църквата?</strong>
 <br/>
@@ -394,11 +394,11 @@ The next day they started the car and headed south to celebrate their engagement
     "thanks_maid_of_honor": "To whom we are grateful for having brought us together.",
     "church_details": `<strong>Church Wedding – 15:30</strong>
 <br/>
-The church ceremony will take place at Храм “Свети Атанасий” located in the center of Perushtitsa. All guests are invited to attend. Guests will begin gathering in front of the church at 15:00, and the ceremony itself will start at 15:30.
+The church ceremony will take place at Храм \"Свети Атанасий\" located in the center of Perushtitsa. All guests are invited to attend. Guests will begin gathering in front of the church at 15:00, and the ceremony itself will start at 15:30.
 <br/><br/>
 <strong>How to get to the church?</strong>
 <br/>
-For your convenience, transportation from Plovdiv has been arranged. The bus will depart at 14:00 from the bus stop opposite the “Trimontium” hotel and will arrive in front of the church around 15:00. All guests are welcome to use this service.
+For your convenience, transportation from Plovdiv has been arranged. The bus will depart at 14:00 from the bus stop opposite the \"Trimontium\" hotel and will arrive in front of the church around 15:00. All guests are welcome to use this service.
 <br/><br/>
 <strong>Please let us know in advance if you would like to use the transportation!</strong>
 <br/><br/>
@@ -487,7 +487,7 @@ Email: reservations@anita.bg
     "photos_link": "here",
     "gallery": "Gallery",
     "faq-title-0": "How do I get to \"Свети Атанасий\"?",
-    "faq-text-0": "For your convenience, organized transportation is available from Plovdiv, departing at 14:00 from the bus stop opposite the “Trimontium” hotel and arriving in front of the church around 15:00. If you would like to use this transport, please let us know in advance!",
+    "faq-text-0": "For your convenience, organized transportation is available from Plovdiv, departing at 14:00 from the bus stop opposite the \"Trimontium\" hotel and arriving in front of the church around 15:00. If you would like to use this transport, please let us know in advance!",
 
     "faq-title-1": "How do I get to Esterra Vini for the wedding celebration?",
     "faq-text-1": "After the church ceremony, organized transportation will take all guests to Estera Vinni. From Plovdiv to Esterra Vini is about 25 km (around 30 minutes by car).",
