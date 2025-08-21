@@ -339,6 +339,7 @@ nav ul .logo:hover {
     display: flex;
     max-width: 600px;
     font-size: var(--font-size-h2);
+    z-index: 3;
 }
 
 .countdown span {
