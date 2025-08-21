@@ -181,15 +181,15 @@ function doRooms() {
                         guests.push(guest);
                     }
                 }
-                entries[0].children[1].textContent = newDetails.house;
-                entries[1].children[1].textContent = newDetails.floor;
-                entries[2].children[1].textContent = newDetails.room;
+                entries[0].children[1].innerHTML = `<div>${guests.join('</div><div>')}</div>`;
+                entries[1].children[1].textContent = newDetails.house;
+                entries[2].children[1].textContent = newDetails.floor;
+                entries[3].children[1].textContent = newDetails.room;
                 entries[4].children[1].textContent = newDetails.roomType;
                 entries[5].children[1].textContent = newDetails.duration;
                 entries[6].children[1].textContent = `${newDetails.pricePerNight} BGN`;
                 entries[7].children[1].textContent = `${newDetails.pricePerNight * newDetails.duration} BGN`;
 
-                entries[3].children[1].innerHTML = `<div>${guests.join('</div><div>')}</div>`;
             }
         }
     });
