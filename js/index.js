@@ -600,5 +600,8 @@ mobileNav.addEventListener("click", () => {
                 iframe.setAttribute("src", iframe.getAttribute("data-src"));
             }
         }
+
+        const backgroud = new Image();
+        backgroud.src = "./img/flowers.png";
     });
 })();
