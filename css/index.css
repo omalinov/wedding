@@ -391,7 +391,7 @@ nav ul .logo:hover {
 }
 
 .schedule {
-    width: 40vmin;
+    width: min(500px, 100%);
     margin: auto;
     display: block;
     padding-top: var(--margin-big);
@@ -710,12 +710,6 @@ svg {
     display: block;
 }
 
-@media (max-width: 1000px) {
-    .schedule {
-        width: 70vmin;
-    }
-}
-
 @media (max-width: 450px) {
     :root {
         --font-size-title: 48px;
@@ -835,10 +829,6 @@ svg {
 
     .table-name {
         background-color: #ccc;
-    }
-
-    .schedule {
-        width: 50vmin;
     }
 
     .rsvp iframe {
