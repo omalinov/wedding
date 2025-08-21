@@ -11,7 +11,6 @@
 }
 
 :root {
-    --font-size-hero: clamp(72px, 9vmin, 144px);
     --font-size-title: clamp(48px, 5.5vmin, 72px);
     --font-size-h1: clamp(36px, 3.8vmin, 48px);
     --font-size-h2: clamp(24px, 2.6vmin, 28px);
@@ -228,7 +227,8 @@ nav ul .logo:hover {
 }
 
 .countryside {
-    width: min(950px, 100%);
+    width: min(1100px, 100%);
+    max-height: 70vh;
     height: auto;
     aspect-ratio: 1536/1024;
     mask-image:
@@ -695,6 +695,22 @@ svg {
     display: block;
 }
 
+@media (max-width: 1000px) {
+    .schedule {
+        width: 70vmin;
+    }
+}
+
+@media (max-width: 450px) {
+    :root {
+        --font-size-title: 48px;
+        --font-size-h1: 28px;
+        --font-size-h2: 20px;
+        --font-size-nav: 16px;
+        --font-size-text: 16px;
+    }
+}
+
 @media (max-width: 1400px) {
     @keyframes border_pulse {
         from {
@@ -819,11 +835,5 @@ svg {
 
     .rsvp iframe {
         margin-top: var(--margin-medium);
-    }
-}
-
-@media (max-width: 1000px) {
-    .schedule {
-        width: 70vmin;
     }
 }

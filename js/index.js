@@ -586,7 +586,6 @@ mobileNav.addEventListener("click", () => {
     const img = new Image();
     img.src = "./img/countryside.png";
     img.addEventListener("load", (e) => {
-        console.log(e);
         const images = document.querySelectorAll("img");
         for (const img of images) {
             if (img.hasAttribute("data-src")) {
