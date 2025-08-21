@@ -231,8 +231,10 @@ const l11n_bg = {
     "honor_attendants": "Почетни Гости",
     "best_man": "Кум",
     "best_man_name": "Панайот Стефанов",
+    "thanks_best_man": "На който благодарим за подкрепата и разбирането.",
     "maid_of_honor": "Кума",
     "maid_of_honor_name": "Рая Владова",
+    "thanks_maid_of_honor": "На която благодарим, че ни срещна.",
     "church_details_header": "Църковен брак",
     "church_details": `
 <strong>Църковен брак - 15:30 ч.</strong>
@@ -385,9 +387,11 @@ The next day they started the car and headed south to celebrate their engagement
     "honor_attendants": "Honor Attendants",
     "best_man": "Best Man",
     "best_man_name": "Panayot Stefanov",
+    "thanks_best_man": "To whom we are grateful for the support and understanding.",
     "maid_of_honor": "Maid of Honor",
     "maid_of_honor_name": "Raya Vladova",
     "church_details_header": "The Church",
+    "thanks_maid_of_honor": "To whom we are grateful for having brought us together.",
     "church_details": `<strong>Church Wedding – 15:30</strong>
 <br/>
 The church ceremony will take place at Храм “Свети Атанасий” located in the center of Perushtitsa. All guests are invited to attend. Guests will begin gathering in front of the church at 15:00, and the ceremony itself will start at 15:30.

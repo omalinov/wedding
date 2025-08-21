@@ -634,21 +634,28 @@ nav ul .logo:hover {
 .honor-attendants-wrap {
     display: flex;
     justify-content: center;
-    gap: var(--margin-big);
+    gap: calc(2* var(--margin-big));
     z-index: 2;
     position: relative;
 }
 
 .honor-attendants-wrap h1 {
-    font-size: var(--font-size-title);
+    font-size: calc(1.5 * var(--font-size-title));
     margin: 0;
     padding: 0;
     font-weight: normal;
     text-align: center;
 }
 
-
 .honor-attendants-wrap h2 {
+    font-size: var(--font-size-h1);
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+.honor-attendants-wrap p {
     font-size: var(--font-size-h2);
     margin: 0;
     padding: 0;
@@ -657,8 +664,16 @@ nav ul .logo:hover {
 }
 
 .honor-attendants img {
-    width: 40vmin;
+    width: 35vmin;
     border-radius: 50%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.honor-attendant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .visible-path {
@@ -797,13 +812,6 @@ svg {
 
     .honor-attendants .background {
         height: 95%;
-    }
-
-    .honor-attendant {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     .main {
