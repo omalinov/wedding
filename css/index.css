@@ -645,6 +645,7 @@ nav ul .logo:hover {
     padding: 0;
     font-weight: normal;
     text-align: center;
+    transform: translate(-10px);
 }
 
 .honor-attendants-wrap h2 {
