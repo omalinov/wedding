@@ -410,7 +410,8 @@ Esterra Vini Guest House е разположена на приблизителн
     "faq-title-12": "До кога мога да потвърдя дали ще ползвам транспорта от Пловдив до църквата?",
     "faq-text-12": `Трябва да предоставим списък с ползващите транспорта до 10 дни преди сватбата.`,
     "faq-title-13": "Какъв е цвета на сватбата?",
-    "faq-text-13": `Когато Огнян зададе този въпрос на Мария, получи следният отговор: <img style="margin: var(--margin-small) 0" data-src="./img/wedding_colors0.jpg"> <img data-src="./img/wedding_colors1.jpg"> Шегата настрана – това са основните цветове, които ще присъстват в декорацията. Можете да ги използвате като ориентир при избора на облекло, но те не са задължителни – просто малка подсказка.`
+    "faq-text-13": `Когато Огнян зададе този въпрос на Мария, получи следният отговор: <img style="margin: var(--margin-small) 0" data-src="./img/wedding_colors0.jpg"> <img data-src="./img/wedding_colors1.jpg"> Шегата настрана – това са основните цветове, които ще присъстват в декорацията. Можете да ги използвате като ориентир при избора на облекло, но те не са задължителни – просто малка подсказка.`,
+    "rsvp-note": "Ако вече сте попълнили анкетата, няма нужда да го правите отново. При нужда от корекции, моля да се свържете с нас."
 };
 
 const l11n_en = {
@@ -570,7 +571,7 @@ Email: reservations@anita.bg
     "faq-text-12": "We need to provide a list of people using the transport at least 10 days before the wedding.",
     "faq-title-13": "What is the wedding color theme?",
     "faq-text-13": "When Ognyan asked Maria this question, he received the following answer: <img style=\"margin: var(--margin-small) 0\" data-src=\"./img/wedding_colors0.jpg\"> <img data-src=\"./img/wedding_colors1.jpg\"> Jokes aside – these are the main colors that will be present in the decoration. You can use them as a guideline when choosing your outfit, but they are not mandatory – just a little hint.",
-
+    "rsvp-note": "If you have already filled out the survey, there is no need to do it again. If you need to make corrections, please contact us."
 };
 
 let shouldLoadImagesNormally = false;

@@ -470,7 +470,15 @@ nav ul .logo:hover {
 
 .rsvp {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.rsvp p {
+    font-size: var(--font-size-h2);
+    margin-top: var(--margin-big);
+    max-width: 90%;
 }
 
 .rsvp iframe {
@@ -834,5 +842,9 @@ svg {
 
     .rsvp iframe {
         margin-top: var(--margin-medium);
+    }
+
+    .rsvp p {
+        margin-bottom: 0;
     }
 }
