@@ -432,6 +432,14 @@ nav ul .logo:hover {
     border: 0;
 }
 
+.transfer_iframe {
+    border: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 550px;
+    flex-basis: 760px;
+}
+
 .main {
     display: flex;
     flex-basis: 300px;
@@ -717,6 +725,13 @@ svg {
 img,
 svg {
     display: block;
+}
+
+@media (max-width: 550px) {
+    .transfer_iframe {
+        width: 345px;
+        flex-basis: 960px;
+    }
 }
 
 @media (max-width: 450px) {
