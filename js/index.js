@@ -400,13 +400,17 @@ Esterra Vini Guest House е разположена на приблизителн
     "faq-text-11": `Вашето присъствие е най-ценният подарък за нас, но ако искате да ни зарадвате, то паричният подарък е най-удачният избор.
 </br>
 </br>
-Знаем, че за мнозина букетът е естествен израз на внимание – а и Мария искрено обича цветята. Този път обаче решихме да украсим мястото с много цветя, които да създадат настроение и красота за всички ни. Ще ни бъде трудно да съхраним и пренесем букетите по най-добрия начин a не бихме искали да ги оставим без нужната грижа. Ако желаете да замените букета са друго - бутилка вино за нашата семейна колекция ще е траен и ценен спомен от вас.
+Знаем, че за мнозина букетът е естествен израз на внимание, а и Мария искрено обича цветята. Този път обаче решихме да украсим мястото с много цветя, които да създадат настроение и красота за всички ни. Ще ни бъде трудно да съхраним и пренесем букетите по най-добрия начин a не бихме искали да ги оставим без нужната грижа. Ако желаете да замените букета с друго - бутилка вино за нашата семейна колекция ще е траен и ценен спомен от вас.
 </br>
 </br>
 Ако пък на сърце ви е да поднесете друго, ще го приемем с много благодарност и усмивка.
 </br>
 </br>
-Всички подарци, ще може да получим лично от вас след гражданския брак.`
+Всички подарци, ще може да получим лично от вас след гражданския брак.`,
+    "faq-title-12": "До кога мога да потвърдя дали ще ползвам транспорта от Пловдив то църквата?",
+    "faq-text-12": `Трябва да предоставим списък с ползващите транспорта до 10 дни преди сватбата.`,
+    "faq-title-13": "Какъв е цвета на сватбата?",
+    "faq-text-13": `Когато Огнян зададе този въпрос на Мария, получи следният отговор: <img style="margin: var(--margin-small) 0" data-src="./img/wedding_colors0.jpg"> <img data-src="./img/wedding_colors1.jpg"> Шегата настрана – това са основните цветове, които ще присъстват в декорацията. Можете да ги използвате като ориентир при избора на облекло, но те не са задължителни – просто малка подсказка.`
 };
 
 const l11n_en = {
@@ -560,8 +564,16 @@ Email: reservations@anita.bg
     "faq-text-10": "The dress code is garden chic, but any formal attire will work. For easier movement on the lawn and dancing by the pool, suitable footwear is recommended.",
 
     "faq-title-11": "What gift should I bring?",
-    "faq-text-11": "Your presence is more than enough, but if you would like to make us happy, a monetary gift is the most suitable choice. Although Maria loves flowers very much, they are not the best option as they are expensive, difficult to transport, and would quickly wilt. If you still wish to bring something tangible, a bottle of wine for our family collection would be a lasting and cherished memory from you."
+    "faq-text-11": "Your presence is more than enough, but if you would like to make us happy, a monetary gift is the most suitable choice. Although Maria loves flowers very much, they are not the best option as they are expensive, difficult to transport, and would quickly wilt. If you still wish to bring something tangible, a bottle of wine for our family collection would be a lasting and cherished memory from you.",
+
+    "faq-title-12": "Until when can I confirm if I will use the transport from Plovdiv to the church?",
+    "faq-text-12": "We need to provide a list of people using the transport at least 10 days before the wedding.",
+    "faq-title-13": "What is the wedding color theme?",
+    "faq-text-13": "When Ognyan asked Maria this question, he received the following answer: <img style=\"margin: var(--margin-small) 0\" data-src=\"./img/wedding_colors0.jpg\"> <img data-src=\"./img/wedding_colors1.jpg\"> Jokes aside – these are the main colors that will be present in the decoration. You can use them as a guideline when choosing your outfit, but they are not mandatory – just a little hint.",
+
 };
+
+let shouldLoadImagesNormally = false;
 
 let l11n = l11n_bg;
 
@@ -584,6 +596,15 @@ window.localize = function () {
         document.querySelector("#sign_bg").classList.add("hidden");
         document.querySelector("#sign_en").classList.remove("hidden");
         document.querySelector(".schedule").setAttribute("src", "./img/stand_canvas_en.png");
+    }
+
+    if (shouldLoadImagesNormally) {
+        document.querySelectorAll("img").forEach(img => {
+            if (img.hasAttribute("data-src")) {
+                img.setAttribute("src", img.getAttribute("data-src"));
+                img.removeAttribute("data-src");
+            }
+        });
     }
 };
 
@@ -630,10 +651,12 @@ mobileNav.addEventListener("click", () => {
     const img = new Image();
     img.src = "./img/countryside.png";
     img.addEventListener("load", (e) => {
+        shouldLoadImagesNormally = true;
         const images = document.querySelectorAll("img");
         for (const img of images) {
             if (img.hasAttribute("data-src")) {
                 img.setAttribute("src", img.getAttribute("data-src"));
+                img.removeAttribute("data-src");
             }
         }
 
@@ -641,6 +664,7 @@ mobileNav.addEventListener("click", () => {
         for (const iframe of iframes) {
             if (iframe.hasAttribute("data-src")) {
                 iframe.setAttribute("src", iframe.getAttribute("data-src"));
+                img.removeAttribute("data-src");
             }
         }
 
