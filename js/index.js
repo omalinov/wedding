@@ -93,8 +93,8 @@ function doRooms() {
         "Рая Владова": { house: "Estera Vini Къща 2", floor: 2, room: 2, roomType: "спалня", duration: 2, pricePerNight: 120 },
         "Иван Иванов": { house: "Estera Vini Къща 2", floor: 2, room: 2, roomType: "спалня", duration: 2, pricePerNight: 120 },
 
-        "Панайот Стефанов": { house: "Estera Vini Къща 2", floor: 2, room: 3, roomType: "2 етаж две легла", duration: 1, pricePerNight: 120 },
-        "Росица Стефанова": { house: "Estera Vini Къща 2", floor: 2, room: 3, roomType: "2 етаж две легла", duration: 1, pricePerNight: 120 },
+        "Панайот Стефанов": { house: "Estera Vini Къща 2", floor: 2, room: 3, roomType: "две легла", duration: 1, pricePerNight: 120 },
+        "Росица Стефанова": { house: "Estera Vini Къща 2", floor: 2, room: 3, roomType: "две легла", duration: 1, pricePerNight: 120 },
 
         "Ивайло Ангелов": { house: "Estera Vini Къща 3", floor: 1, room: 1, roomType: "две легла + доп. легло", duration: 2, pricePerNight: 145 },
         "Тихомира Николова": { house: "Estera Vini Къща 3", floor: 1, room: 1, roomType: "спалня + доп. легло", duration: 2, pricePerNight: 145 },
@@ -103,19 +103,19 @@ function doRooms() {
         "Златка Стефанова": { house: "Estera Vini Къща 3", floor: 2, room: 2, roomType: "спалня", duration: 2, pricePerNight: 120 },
         "Красимир Стефанов": { house: "Estera Vini Къща 3", floor: 2, room: 2, roomType: "спалня", duration: 2, pricePerNight: 120 },
 
-        "Екатерина Тянкова": { house: "Estera Vini Къща 3", floor: 2, room: 3, roomType: "2 етаж две легла", duration: 2, pricePerNight: 120 },
-        "Ondrej Vanek": { house: "Estera Vini Къща 3", floor: 2, room: 3, roomType: "2 етаж две легла", duration: 2, pricePerNight: 120 },
+        "Екатерина Тянкова": { house: "Estera Vini Къща 3", floor: 2, room: 3, roomType: "спалня", duration: 2, pricePerNight: 120 },
+        "Ondrej Vanek": { house: "Estera Vini Къща 3", floor: 2, room: 3, roomType: "спалня", duration: 2, pricePerNight: 120 },
 
         "Соня Хършева": { house: "Estera Vini Къща 4", floor: 1, room: 1, roomType: "спалня + доп. легло", duration: 1, pricePerNight: 145 },
         "Красимир Ромов": { house: "Estera Vini Къща 4", floor: 1, room: 1, roomType: "спалня + доп. легло", duration: 1, pricePerNight: 145 },
         "Петя Ромова": { house: "Estera Vini Къща 4", floor: 1, room: 1, roomType: "спалня + доп. легло", duration: 1, pricePerNight: 145 },
         "София Ромова": { house: "Estera Vini Къща 4", floor: 1, room: 1, roomType: "спалня + доп. легло", duration: 1, pricePerNight: 145 },
 
-        "Панко Тянков": { house: "Estera Vini Къща 4", floor: 2, room: 2, roomType: "спалня", duration: 2, pricePerNight: 120 },
-        "Кирил Тянков": { house: "Estera Vini Къща 4", floor: 2, room: 2, roomType: "спалня", duration: 2, pricePerNight: 120 },
+        "Панко Тянков": { house: "Estera Vini Къща 4", floor: 2, room: 2, roomType: "две легла", duration: 2, pricePerNight: 120 },
+        "Кирил Тянков": { house: "Estera Vini Къща 4", floor: 2, room: 2, roomType: "две легла", duration: 2, pricePerNight: 120 },
 
-        "Марияна Жечева": { house: "Estera Vini Къща 4", floor: 2, room: 3, roomType: "2 етаж две легла", duration: 1, pricePerNight: 120 },
-        "Елена Лулчева": { house: "Estera Vini Къща 4", floor: 2, room: 3, roomType: "2 етаж две легла", duration: 1, pricePerNight: 120 },
+        "Стефан Стефанов": { house: "Estera Vini Къща 4", floor: 2, room: 3, roomType: "спалня", duration: 1, pricePerNight: 120 },
+        "Кристиан Стефанов": { house: "Estera Vini Къща 4", floor: 2, room: 3, roomType: "спалня", duration: 1, pricePerNight: 120 },
 
         "Златко Чотев": { house: "Къща Анита & Релакс", floor: 1, room: 1, roomType: "спалня", duration: 1, pricePerNight: 100 },
         "Виктория Романова": { house: "Къща Анита & Релакс", floor: 1, room: 1, roomType: "спалня", duration: 1, pricePerNight: 100 },
@@ -134,6 +134,7 @@ function doRooms() {
         "Боян Каназирски": { house: "Къща Анита & Релакс", floor: 3, room: 6, roomType: "спалня", duration: 1, pricePerNight: 120 },
 
         "Георги Араламов": { house: "Къща Анита & Релакс", floor: 3, room: 7, roomType: "две легла", duration: 1, pricePerNight: 100 },
+        "Теодор Велев": { house: "Къща Анита & Релакс", floor: 3, room: 7, roomType: "две легла", duration: 1, pricePerNight: 100 },
 
         "Петър Петров": { house: "Къща Анита & Релакс", floor: 3, room: 8, roomType: "спалня", duration: 1, pricePerNight: 100 },
         "Ани Петрова": { house: "Къща Анита & Релакс", floor: 3, room: 8, roomType: "спалня", duration: 1, pricePerNight: 100 },
@@ -141,7 +142,8 @@ function doRooms() {
         "Георги Чотев": { house: "Къща Анита & Релакс", floor: 3, room: 9, roomType: "спалня", duration: 1, pricePerNight: 100 },
         "Станислава Чоролеева": { house: "Къща Анита & Релакс", floor: 3, room: 9, roomType: "спалня", duration: 1, pricePerNight: 100 },
 
-        "Теодор Велев": { house: "Къща Анита", floor: 2, room: 1, roomType: "две легла", duration: 1, pricePerNight: 80 },
+        "Марияна Жечева": { house: "Къща Анита", floor: 2, room: 1, roomType: "две легла", duration: 1, pricePerNight: 80 },
+        "Елена Лулчева": { house: "Къща Анита", floor: 2, room: 1, roomType: "две легла", duration: 1, pricePerNight: 80 },
 
         "Влад Федоров": { house: "Къща Анита", floor: 2, room: 2, roomType: "две легла", duration: 1, pricePerNight: 80 },
 
