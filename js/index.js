@@ -124,6 +124,8 @@ function doRooms() {
         "Christian Berndt": { house: "Anita & Relax House", floor: 2, room: 2, roomType: "one bedroom one single bed", duration: 2, pricePerNight: 120 },
         "Clara Berndt": { house: "Anita & Relax House", floor: 2, room: 2, roomType: "one bedroom one single bed", duration: 2, pricePerNight: 120 },
 
+        "Влад Федоров": { house: "Anita & Relax House", floor: 2, room: 3, roomType: "две легла", duration: 1, pricePerNight: 100 },
+
         "Денис Ников": { house: "Anita & Relax House", floor: 2, room: 3, roomType: "две легла", duration: 1, pricePerNight: 100 },
 
         "Валентин Батуров": { house: "Къща Анита & Релакс", floor: 2, room: 4, roomType: "две легла", duration: 1, pricePerNight: 100 },
@@ -145,7 +147,7 @@ function doRooms() {
         "Марияна Жечева": { house: "Къща Анита", floor: 2, room: 1, roomType: "две легла", duration: 1, pricePerNight: 80 },
         "Елена Лулчева": { house: "Къща Анита", floor: 2, room: 1, roomType: "две легла", duration: 1, pricePerNight: 80 },
 
-        "Влад Федоров": { house: "Къща Анита", floor: 2, room: 2, roomType: "две легла", duration: 1, pricePerNight: 80 },
+        "Екатерина Баримова": { house: "Къща Анита", floor: 2, room: 2, roomType: "две легла", duration: 1, pricePerNight: 80 },
 
         "Надя Баримова": { house: "Къща Анита", floor: 2, room: 3, roomType: "спалня + доп. легло", duration: 1, pricePerNight: 95 },
         "Димитър Баримов": { house: "Къща Анита", floor: 2, room: 3, roomType: "спалня + доп. легло", duration: 1, pricePerNight: 95 },
