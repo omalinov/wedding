@@ -120,9 +120,9 @@ function doRooms() {
         "Златко Чотев": { house: "Къща Анита & Релакс", floor: 1, room: 1, roomType: "спалня", duration: 1, pricePerNight: 100 },
         "Виктория Романова": { house: "Къща Анита & Релакс", floor: 1, room: 1, roomType: "спалня", duration: 1, pricePerNight: 100 },
 
-        "Eva Schäfer": { house: "Anita & Relax House", floor: 2, room: 2, roomType: "one bedroom one single bed", duration: 2, pricePerNight: 120 },
-        "Christian Berndt": { house: "Anita & Relax House", floor: 2, room: 2, roomType: "one bedroom one single bed", duration: 2, pricePerNight: 120 },
-        "Clara Berndt": { house: "Anita & Relax House", floor: 2, room: 2, roomType: "one bedroom one single bed", duration: 2, pricePerNight: 120 },
+        "Станислава Ташева": { house: "Anita & Relax House", floor: 2, room: 2, roomType: "one bedroom one single bed", duration: 2, pricePerNight: 120 },
+        "Костадин Калоферов": { house: "Anita & Relax House", floor: 2, room: 2, roomType: "one bedroom one single bed", duration: 2, pricePerNight: 120 },
+        "Деян Калоферов": { house: "Anita & Relax House", floor: 2, room: 2, roomType: "one bedroom one single bed", duration: 2, pricePerNight: 120 },
 
         "Влад Федоров": { house: "Anita & Relax House", floor: 2, room: 3, roomType: "две легла", duration: 1, pricePerNight: 100 },
 
